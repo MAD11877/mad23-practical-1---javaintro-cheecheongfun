@@ -26,13 +26,13 @@ public class Question5 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter the number of integars: ");
+    // System.out.print("Enter the number of integars: ");
     int num = in.nextInt();
     int[] numarr = new int[num];
     int maxCount = 0;
     int mode = 0;
     for (int i = 0; i < num; i++) {
-      System.out.print("Enter integar: ");
+      // System.out.print("Enter integar: ");
       numarr[i] = in.nextInt();
     }
 
@@ -48,6 +48,7 @@ public class Question5 {
         mode = numarr[i];
       }
     }
-    System.out.print("Mode: " + mode);
+    System.out.println(mode);
+    in.close();
   }
 }

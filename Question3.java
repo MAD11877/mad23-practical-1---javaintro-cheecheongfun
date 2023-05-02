@@ -9,8 +9,9 @@ public class Question3 {
      * Hint: in.nextInt() to read integer
      */
     Scanner in = new Scanner(System.in);
-    System.out.print("Please enter a number: ");
+    // System.out.print("Please enter a number: ");
     int num = in.nextInt();
-    System.out.print("The multiplied number is " + (num * num));
+    System.out.println(num * num);
+    in.close();
   }
 }
